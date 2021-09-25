@@ -17,7 +17,6 @@
     align-items: center;
     justify-content: center;
     background: var(--colorMain);
-    
   }
    .main-text {
     color: #e0e5eb;
@@ -135,4 +134,4 @@ ul li:hover a {
 .sidebar header p {
   padding: 10px;
 }
-  
+
