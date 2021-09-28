@@ -5,44 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yan Zinchenko | Portfolio</title>
+    <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
 
-  <header>
-    <h1>Yan Zinchenko</h1>
-    <p>Web Developer</p>
+  <header class="header">
+    <div class="container">
+      <a  class="logo">
+        <img src="" alt="logo">
+      </a>
+      <button class="burger" aria-label="Open menu">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+    </div>    
   </header>
-  <nav>
-    <a href="">Home</a>
-    <a href="">About Me</a>
-    <a href="">My Work</a>
-    <a href="">Contact</a>
-  </nav>
 
   <main>
-    <h2>About me</h2>
-
+   <section class="hero">
+     <div class="container">
+       <div class="hero-content">
+         <span class="hero-subtitle">Web Developer</span>
+         <h1 class="hero-title">Yan Zinchenko</h1>
+         <a href="#" class="hero-link link">GitHub</a>
+       </div>
+     </div>
+   </section>
+   <section class="skills">
+     <div class="container">
+       <h2 class="skills-title">Skills</h2>
+       <ul class="skills-list">
+         <li class="skills-item">
+           <h3 class="skills-subtitle">XTML-HTML5</h3>
+           <p class="skills-descr">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint esse expedita iste accusamus minima sapiente!
+           </p>
+           <a href="#" class="skills-link">Read More</a>
+         </li>
+         <li class="skills-item">
+          <h3 class="skills-subtitle">Css-Css3</h3>
+          <p class="skills-descr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint esse expedita iste accusamus minima sapiente!
+          </p>
+          <a href="#" class="skills-link">Read More</a>
+        </li>
+        <li class="skills-item">
+          <h3 class="skills-subtitle">Javascript</h3>
+          <p class="skills-descr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint esse expedita iste accusamus minima sapiente!
+          </p>
+          <a href="#" class="skills-link">Read More</a>
+        </li>
+        <li class="skills-item">
+          <h3 class="skills-subtitle">React</h3>
+          <p class="skills-descr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint esse expedita iste accusamus minima sapiente!
+          </p>
+          <a href="#" class="skills-link">Read More</a>
+        </li>
+       </ul>
+     </div>
+   </section>
+   <section class="repeat">
+     <div class="container">
+       <h2 class="repeat-title">My Rules</h2>
+       <!-- <a href="#" class="repeat-link link"></a> -->
+     </div>
+   </section>
   </main>
-  <div>
-    <h2>My Work</h2>
-
-
-  </div>
-  <div>
-    <h2>Contact</h2>
-
-
-  </div>
-
-  <footer>
-
-  </footer>
-    
-
-
-    
-    
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-contact">
+        <div class="footer-contact-item">
+          <span class="footer-contacts-text">Phone</span>
+          <a href="tel:+38097" class="footer-contacts-value">+380 96 56 43 312</a>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contacts-text">Adress</span>
+          <address class="footer-contacts-value">491 Merlin Crest Suite 963</address>
+        </div 
+        </div>
+      <div class="footer-link">
+        <h3 class="footer-title">Get in Touch</h3>
+        <p class="footer-text">Lorem ipsum dolor sit amet.</p>
+        <a href="mailto:Zinchenko.yan@gmail.com" class="footer-mail">Zinchenko.yan@gmail.com</a>
+        <ul class="social">
+          <li class="social-item"><a href="#" class="social-link  social-link-fb" target="_blank" aria-label="Link to Facebook"></a></li>
+          <li class="social-item"><a href="#" class="social-link social-link-tw" target="_blank" aria-label="Link to Twitter"></a></li>
+          <li class="social-item"><a href="#" class="social-link social-link-li" target="_blank" aria-label="Link to LinkeIn"></a></li>
+          <li class="social-item"><a href="#" class="social-link social-link-in" target="_blank" aria-label="Link to Instagram"></a></li>
+        </ul>
+      
+      </div>
+    </div>
+  </footer>  
 <script src="javaScript/script.js"></script>
 </body>
 </html>
